@@ -11,3 +11,5 @@ htmlcov
 website/deploy/
 website/.hyde_deps
 *.egg-info
+*.iml
+.idea
