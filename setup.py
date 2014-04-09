@@ -51,6 +51,7 @@ AUTHOR_EMAIL = "ryan@rfk.id.au"
 URL="http://packages.python.org/dexml"
 LICENSE = "MIT"
 KEYWORDS = "xml"
+REQUIRES = ['defusedxml']
 CLASSIFIERS = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 2",
@@ -79,5 +80,6 @@ setup(name=NAME,
       keywords=KEYWORDS,
       packages=["dexml"],
       classifiers=CLASSIFIERS,
+      requires=REQUIRES,
       **setup_kwds
      )
